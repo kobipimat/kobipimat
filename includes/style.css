@@ -1,0 +1,199 @@
+﻿*{margin:0px; padding:0px;}
+
+body
+{
+	background-image: url(../images/base.jpg);
+}
+
+.out
+{
+	background-image: url(../images/errorScreen.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	left:150px;
+	top:110px;
+	width: 570px;
+	height: 350px;
+}
+
+.in
+{
+	background-color:none;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	left:15px;
+	top:15px;
+	width: 450px;
+	height: 270px;
+}
+#wrapper 
+{
+	position:relative;
+	background-repeat:no-repeat;
+	background-image: url(../images/mac3-small.png);
+	width: 1028px;
+	height: 850px;
+	margin: 0 auto;
+}
+
+
+div.wrap {
+	width: 900px;
+	margin: 20px auto 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1, h3 {
+	margin-left: 5px;
+	font: bold 16px/18px "Courier New", Courier, mono;
+	color: #999;
+}
+	h1 b {
+		color: #ddd;
+	}
+
+
+h3 b {
+	display: inline-block;
+	color: #fff;
+	width: 125px;
+}
+
+h3 span {
+	color: #aaa;
+	font-style: normal;
+}
+	h3 span.link:hover, a h3:hover span.link {
+		-webkit-animation: blink .75s linear infinite;
+		-moz-animation: blink .75s linear infinite;
+		-ms-animation: blink .75s linear infinite;
+		-o-animation: blink .75s linear infinite;
+		animation: blink .75s linear infinite;
+	}
+
+ul {
+	list-style: none;
+	margin-left: 20px;
+
+}
+
+@-webkit-keyframes blink {
+	0% {
+		background: #ddd;
+		color: #000;
+	}
+	50% {
+		background: #ddd;
+		color: #000;
+	}
+	50.01% {
+		background: transparent;
+		color: #aaa;
+	}
+	99.99% {
+		background: transparent;
+		color: #aaa;
+	}
+	100% {
+		background: #ddd;
+		color: #aaa;
+	}
+}
+
+@-moz-keyframes blink {
+   0% {
+   	background: #ddd;
+   	color: #000;
+   }
+   50% {
+   	background: #ddd;
+   	color: #000;
+   }
+   50.01% {
+   	background: transparent;
+   	color: #aaa;
+   }
+   99.99% {
+   	background: transparent;
+   	color: #aaa;
+   }
+   100% {
+   	background: #ddd;
+   	color: #aaa;
+   }
+}
+
+@-ms-keyframes blink {
+   0% {
+   	background: #ddd;
+   	color: #000;
+   }
+   50% {
+   	background: #ddd;
+   	color: #000;
+   }
+   50.01% {
+   	background: transparent;
+   	color: #aaa;
+   }
+   99.99% {
+   	background: transparent;
+   	color: #aaa;
+   }
+   100% {
+   	background: #ddd;
+   	color: #aaa;
+   }
+}
+
+@-o-keyframes blink {
+	0% {
+		background: #ddd;
+		color: #000;
+	}
+	50% {
+		background: #ddd;
+		color: #000;
+	}
+	50.01% {
+		background: transparent;
+		color: #aaa;
+	}
+	99.99% {
+		background: transparent;
+		color: #aaa;
+	}
+	100% {
+		background: #ddd;
+		color: #aaa;
+	}
+}
+
+@keyframes blink {
+  0% {
+  	background: #ddd;
+  	color: #000;
+  }
+  50% {
+  	background: #ddd;
+  	color: #000;
+  }
+  50.01% {
+  	background: transparent;
+  	color: #aaa;
+  }
+  99.99% {
+  	background: transparent;
+  	color: #aaa;
+  }
+  100% {
+  	background: #ddd;
+  	color: #aaa;
+  }
+}
